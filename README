@@ -1,0 +1,16 @@
+class Greeting
+{
+	public void sayHi()
+	{
+		System.out.println("Hello World, ver 2");
+	}
+}
+
+public class TestGreeting
+{
+	public static void main(String args[])
+	{
+		Greeting g = new Greeting();
+		g.sayHi();
+	}
+}
